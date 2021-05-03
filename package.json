@@ -1,0 +1,40 @@
+{
+  "name": "learn-fullstack-javascript",
+  "version": "1.0.0",
+  "description": "Learning Fullstack Javacript Devlopment: Mongo DB, Node.js, React.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jscomplete/learn-fullstack-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jscomplete/learn-fullstack-javascript/issues"
+  },
+  "homepage": "https://github.com/jscomplete/learn-fullstack-javascript#readme",
+  "dependencies": {
+    "D": "^1.0.0",
+    "mongodb": "^3.6.6",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.14.0",
+    "@babel/preset-react": "^7.13.13",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.25.0",
+    "eslint-plugin-react": "^7.23.2",
+    "nodemon": "^2.0.7"
+  }
+}
