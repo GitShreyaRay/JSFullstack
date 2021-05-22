@@ -1,0 +1,63 @@
+body {
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+}
+h3 {
+  font-weight: 700;
+}
+.container-fluid {
+  width: 100%
+  margin: 0;
+  padding: 0;
+}
+.photo > img {
+  object-fit: cover;
+  width: 99%;
+  height:auto;
+}
+.feedback-area {
+  padding: 7% 4% 5% 2%;
+}
+.form-range {
+  width: 80%;
+}
+mark {
+  background-color: #273a47;
+  color: white;
+  padding: 0 3px 0 3px;
+}
+textarea {
+  border-radius: 0.5rem;
+  border-color: #b2b2b2;
+  margin: 10px 0 10px 0;
+}
+.submit-feedbackbtn {
+    color: #fff;
+    background-color: #4d8f53;
+    border-color: #4d8f53; /*set the color you want here*/
+    margin: 25px 0 10px 0;
+}
+.submit-feedbackbtn:hover, .submit-feedbackbtn:focus, .submit-feedbackbtn:active, .submit-feedbackbtn.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #4d8f00;
+    border-color: #4d8f00; /*set the color you want here*/
+}
+.year-label {
+  /* width: 20%; */
+  display: inline;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.yearmonth {
+  /* float: right; */
+  position: absolute;
+  display: inline;
+  margin-left: 1%;
+}
+.form-select {
+  width: 120px;
+  display: inline;
+  margin-right: 10px;
+}

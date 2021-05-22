@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <!-- CSS files -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <title></title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4 col-md-12 photo">
+        <img src="img/Feedback-form_01.png" alt>
+      </div>
+      <div class="col-lg-8 feedback-area">
+        <h3>How satisfied are you with your <br><mark>delivery partner?</mark></h3>
+        <form action="" method="get">
+
+          <input type="range" class="form-range" id="feedbackRange"  min="0" max="10">
+          <div>
+            <label for="name">Would you like to tell us the things you liked or disliked?</label>
+            <br>
+            <textarea name="name" rows="5" cols="80" required></textarea>
+          </div>
+
+          <div class="year-label">
+            <label for="year">Please tell us the month and date you started trading?
+              <br>(Selling goods/delivery services) and receiving income?
+            </label>
+          </div>
+          <div class="yearmonth">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Year</option>
+              <option value="1">1990</option>
+              <option value="2">1991</option>
+              <option value="3">2021</option>
+            </select>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Month</option>
+              <option value="1">January</option>
+              <option value="2">February</option>
+              <option value="3">March</option>
+            </select>
+          </div>
+          <br>
+          <input type="submit" class="btn btn-primary submit-feedbackbtn" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
